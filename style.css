@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background: black;
+    margin: 0;
+}
+
+/* ===== MENU ===== */
+
+
+/* ===== FEED ===== */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.artist {
+    background: #ffffff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.artist-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: black;
+}
+
+.artist-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.song-list {
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.song-list a {
+    display: block;
+    margin: 6px 0;
+    text-decoration: none;
+}
+.topbar-right a{
+    color: white;
+}
+
+.menu button{
+    color: white;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    background: #0f0f0f;
+    color: #bbb;
+    margin-top: 60px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-logo {
+    height: 36px;
+    width: auto;
+}
+
+.footer-left p {
+    font-size: 13px;
+    margin: 0;
+    color: #777;
+}
+
+.footer-links {
+    font-size: 14px;
+}
+
+.footer-links a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: #ccff00;
+}
+
+.footer-links span {
+    margin: 0 6px;
+    color: #444;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-left {
+        justify-content: center;
+    }
+}
